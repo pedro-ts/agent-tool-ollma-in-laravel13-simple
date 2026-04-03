@@ -1,0 +1,109 @@
+<mxfile host="65bd71144e">
+    <diagram id="rhWsY-_Ef6l7ccLkgWXJ" name="Page-1">
+        <mxGraphModel dx="1091" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Criar projeto laravel 13" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-11" y="48" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="composer install + .env + generate key" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="136" y="48" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="5" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="instalar pacote de IA:&lt;br&gt;&lt;div&gt;composer require laravel/ai&lt;/div&gt;&lt;div&gt;php artisan vendor:publish --provider=&quot;Laravel\Ai\AiServiceProvider&quot;&lt;/div&gt;&lt;div&gt;php artisan migrate&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="467" y="-39" width="256" height="127" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="baixar ollama + modelo" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="278" y="48" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;" parent="1" source="9" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Powershell:&amp;nbsp;&lt;div&gt;irm https://ollama.com/install.ps1 | iex&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="215" y="158" width="248" height="71" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="baixar modelo:&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;ollama pull qwen2.5:3b&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="278" y="261" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="14" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="configurar .env para usar ollama, add essas linhas lá:&lt;br&gt;&lt;br&gt;&lt;div&gt;OLLAMA_API_KEY=dummy&lt;/div&gt;&lt;div&gt;OLLAMA_BASE_URL=http://127.0.0.1:11434&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="764" y="-39" width="301" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="17" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="17" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Configurar para usar o ollama como modelo LLM.&lt;br&gt;&lt;br&gt;config/ai.php" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1103" y="-21.75" width="161" height="93.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Confirme que existe configuração parecida com:&lt;br&gt;&lt;br&gt;&lt;div&gt;&#39;ollama&#39; =&amp;gt; [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &#39;driver&#39; =&amp;gt; &#39;ollama&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &#39;key&#39; =&amp;gt; env(&#39;OLLAMA_API_KEY&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &#39;url&#39; =&amp;gt; env(&#39;OLLAMA_BASE_URL&#39;, &#39;http://127.0.0.1:11434&#39;),&lt;/div&gt;&lt;div&gt;],&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1045.5" y="108" width="276" height="132" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="21" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Criar agent, tools e controller:&lt;br&gt;&lt;br&gt;&lt;div&gt;php artisan make:agent AssistenteLocal&lt;/div&gt;&lt;div&gt;php artisan make:tool CurrentDateTimeTool&lt;/div&gt;&lt;div&gt;php artisan make:tool RandomNumberTool&lt;/div&gt;&lt;div&gt;php artisan make:tool CalculatorTool&lt;/div&gt;&lt;div&gt;php artisan make:controller Api/AiTestController&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1344" y="-72" width="270" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="24" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="24" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="O lugar para editar e mexer nas coisas de IA ficam na pasta:&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;app/Ai&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1654" y="-62.5" width="152" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="27" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Tool" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1859" y="-122.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="28" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Agent" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1859" y="35.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="description():&lt;br&gt;ensina a IA quando usar&lt;br&gt;&lt;br&gt;handle():&lt;br&gt;executa&lt;br&gt;&lt;br&gt;schema():&lt;br&gt;diz quais parâmetros existem&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="2019" y="-217" width="218" height="154.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="instructions():&lt;br&gt;prompt do agente, tem que começar com &amp;lt;&amp;lt;&amp;lt;PROMPT e terminar com PROMPT; entre eles vem o prompt em si, é tipo um XML&lt;br&gt;&lt;br&gt;messages():&lt;br&gt;&lt;br&gt;&lt;br&gt;tools():&lt;div&gt;&lt;font&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;as ferramentas do agente no caso deve ser um array com new + ferramenta(função)&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="2019" y="35.5" width="267" height="196" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Instalar api:&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;b&gt;php artisan install:api&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="124" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Cnfigurar qual llm usar no agente:&#xa;&#xa;use Laravel\Ai\Attributes\MaxSteps;&#xa;use Laravel\Ai\Attributes\Model;&#xa;use Laravel\Ai\Attributes\Provider;&#xa;use Laravel\Ai\Enums\Lab;&#xa;&#xa;em cima da classe:&#xa;&#xa;#[Provider(Lab::Ollama)]&#xa;#[Model(&#39;qwen2.5:3b&#39;)]&#xa;#[MaxSteps(5)]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2350" y="35" width="282" height="194" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
